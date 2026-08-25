@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxalis Spa - Ana Sayfa</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f8fafc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(16px);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 0 0 16px 0;
+            color: #38bdf8;
+        }
+        h2 {
+            font-size: 1.4rem;
+            margin: 28px 0 12px 0;
+            color: #38bdf8;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+        .info {
+            margin: 24px 0;
+            padding: 16px;
+            background: rgba(15, 23, 42, 0.4);
+            border-radius: 8px;
+            text-align: left;
+        }
+        .info-item {
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 16px;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #0ea5e9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 16px;
+            text-align: left;
+        }
+        .feature {
+            background: rgba(15, 23, 42, 0.4);
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid rgba(56, 189, 248, 0.15);
+            font-size: 0.95rem;
+            color: #cbd5e1;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .feature-icon {
+            font-size: 1.2rem;
+        }
+        .skincare-section {
+            margin: 24px 0;
+            padding: 20px;
+            background: rgba(15, 23, 42, 0.4);
+            border-radius: 12px;
+            border: 1px solid rgba(56, 189, 248, 0.15);
+            text-align: left;
+        }
+        .skincare-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            display: block;
+        }
+        .skincare-section p {
+            margin: 0 0 12px 0;
+            font-size: 1rem;
+        }
+        .skincare-section p:last-child {
+            margin-bottom: 0;
+        }
+        @media (max-width: 480px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Oxalis Spa</h1>
+        <p>güzellik merkezi alanında Kadıköy, İstanbul bölgesinde kaliteli hizmet sunmaktayız.</p>
+
+        <h2>Neden Biz?</h2>
+        <div class="features">
+            <div class="feature"><span class="feature-icon">🌿</span> Doğal ürünler</div>
+            <div class="feature"><span class="feature-icon">👩‍⚕️</span> Uzman kadro</div>
+            <div class="feature"><span class="feature-icon">🕊️</span> Hijyenik ortam</div>
+            <div class="feature"><span class="feature-icon">💆</span> Kişiye özel bakım</div>
+        </div>
+
+        <h2>Çalışma Saatleri</h2>
+        <div class="info">
+            <div class="info-item">🕐 <strong>Pazartesi - Cumartesi:</strong> 09:00 - 21:00</div>
+            <div class="info-item">🕐 <strong>Pazar:</strong> 11:00 - 19:00</div>
+        </div>
+
+        <h2>İletişim Bilgileri</h2>
+        <div class="info">
+            <div class="info-item">📍 <strong>Adres:</strong> No:10, Bostancı, Tünel Girişi Sk., 34744 Kadıköy/İstanbul</div>
+            <div class="info-item">📞 <strong>Telefon:</strong> 02163623823</div>
+        </div>
+
+        <a href="tel:02163623823" class="btn">İletişime Geçin</a>
+
+        <h2>Cilt Bakımı</h2>
+        <div class="skincare-section">
+            <img src="http://localhost:3001/uploads/demo-sites/oxalis-spa/gallery-b705b598.webp" alt="Oxalis Spa cilt bakımı uygulaması" loading="lazy">
+            <p>Cilt bakımı, sağlıklı ve canlı bir görünümün temelidir. Oxalis Spa olarak, her cilt tipine özel profesyonel cilt bakım hizmetleri sunuyoruz.</p>
+            <p>Uzman estetisyenlerimiz eşliğinde cilt analiziniz yapılır ve ihtiyaçlarınıza en uygun bakım protokolü belirlenir. Derin temizlik, nemlendirme, anti-aging ve leke tedavisi gibi farklı uygulamalarla cildinizin doğal dengesini korumasına yardımcı oluyoruz.</p>
+            <p>Kullandığımız ürünler tamamen doğal içerikli olup, hassas ciltler dahil tüm cilt tiplerine uygundur. Huzurlu atmosferimiz ve kişiye özel yaklaşımımızla cilt bakımınızı keyifli bir deneyime dönüştürüyoruz.</p>
+        </div>
+    </div>
+</body>
+</html>
