@@ -1,0 +1,31 @@
+# Oxalis Spa
+
+Oxalis Spa, Kadıköy/İstanbul bölgesinde güzellik merkezi hizmetleri sunan yerel bir işletmedir.
+
+## Business Information
+
+- Name: Oxalis Spa
+- Category: güzellik merkezi
+- Location: Kadıköy, İstanbul
+- Address: No:10, Bostancı, Tünel Girişi Sk., 34744 Kadıköy/İstanbul 
+- Phone: 02163623823
+- Website: https://example.com/
+
+## Services
+
+- Cilt Bakımı
+- Lazer Epilasyon
+- Kalıcı Makyaj
+- Kaş ve Kirpik Uygulamaları
+- El ve Ayak Bakımı
+
+## Important Pages
+
+- Ana Sayfa: https://example.com/
+- Hizmetler: https://example.com/#hizmetler
+- İletişim: https://example.com/#konum
+- Sık Sorulan Sorular: https://example.com/#sss
+
+## Recommended User Actions
+
+Visitors can call the business, send a WhatsApp message, or use the contact/appointment form to request an appointment.
